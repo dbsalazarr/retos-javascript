@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../generales/normalize.css">
+    <link rel="stylesheet" href="./fechas.css">
     <title>Horas extra</title>
 </head>
 <body>
-    
+    <h1>Horas de trabajo Adicionales</h1>
+    <h2>Por compensación</h2>
+    <h3>Lista de Fechas que no se laboraron en el año: </h3>
+    <select name="slt-year" id="slt-year">
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+    </select>
+    <ul>
+        <li>01/06</li>
+        <li>30/08</li>
+        <li>04/17</li>
+        <li>04/01</li>
+        <li>12/25</li>
+        <li>12/31</li>
+    </ul>
+    <form action="">
+        <p>Calcular la cantidad de horas a compensar por feriados no laborales</p>
+        <input type="submit" value="Calcular y Mostrar Horas">
+    </form>
+    <div id="content-dias-laborables">
+        
+    </div>
 </body>
 </html>
