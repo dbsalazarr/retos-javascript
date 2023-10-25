@@ -1,0 +1,19 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: inherit;
+}
+body{
+    font: normal normal 1.6rem "Open Sans";
+}
+code{
+    display: block;
+}
