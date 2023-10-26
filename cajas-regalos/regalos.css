@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* Now 1rem is equal to 10px*/
+}
+body{
+    font : normal normal 1.6rem "Inter", sans-serif;
+    padding: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.button{
+    display: inline-block;
+    background: #0B1D51;
+    border-radius: 2.5rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+.button:active{
+    padding-bottom: 1.4rem;
+}
+section{
+    margin-bottom: 2rem;
+}
+.problema{
+    display: flex;
+    justify-content: space-around;
+}
+.problema article{
+    flex: 0 1 calc(33% - 2rem)
+}
+.problema p{
+    flex: 0 1 calc(33% - 1rem);
+}
+.resultado{
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+}
