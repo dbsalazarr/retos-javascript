@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font: normal normal 1.6rem "Inter", sans-serif;
+}
