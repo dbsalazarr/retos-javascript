@@ -52,12 +52,20 @@ const boxes = [
 ]
 
 boxes.forEach( (box) => {
-    console.log(box)
+    // console.log(box)
 })
 
 function compararCajas( caja1, caja2 ){
 }
 
 let titulo = document.querySelector("h1")
+let seccionCaja = document.getElementById("cajas")
+let img = document.createElement("img")
 
-console.log(document.createElement("simbita"))
+img.setAttribute('src', 'https://img.freepik.com/vector-gratis/etiqueta-engomada-caja-vacia-abierta-sobre-fondo-blanco_1308-68243.jpg')
+console.log( seccionCaja )
+seccionCaja.append(img)
+
+
+
+
