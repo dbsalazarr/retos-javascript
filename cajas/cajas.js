@@ -65,4 +65,3 @@ let img = document.createElement("img")
 img.setAttribute('src', 'https://img.freepik.com/vector-gratis/etiqueta-engomada-caja-vacia-abierta-sobre-fondo-blanco_1308-68243.jpg')
 console.log( seccionCaja )
 seccionCaja.append(img)
-
