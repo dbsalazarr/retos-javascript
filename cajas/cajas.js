@@ -66,6 +66,3 @@ img.setAttribute('src', 'https://img.freepik.com/vector-gratis/etiqueta-engomada
 console.log( seccionCaja )
 seccionCaja.append(img)
 
-
-
-
